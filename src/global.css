@@ -1,0 +1,26 @@
+@keyframes shine {
+  to {
+    left: 150%;
+  }
+}
+
+.resume-button {
+  @apply relative inline-block overflow-hidden;
+}
+
+.resume-button::before {
+  @apply absolute bg-termTop opacity-20;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -300px;
+  width: 100%;
+  height: 100%;
+  /* background: rgba(255, 255, 255, 0.3); */
+  transform: skewX(-30deg);
+  transition: 0.3s;
+}
+
+.resume-button:hover::before {
+  animation: shine 500ms linear; /* Enable animation on hover */
+}
