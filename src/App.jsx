@@ -1,7 +1,7 @@
 import { DomElementsContext } from "./Store/Context.js";
 import Header from "./components/Header/Header.jsx";
 import Sidebar from "./components/Sidebar/Sidebar.jsx";
-import TerminalContainer from "./components/terminal/TerminalContainer.jsx";
+import TerminalContainer from "./components/Terminal/TerminalContainer.jsx";
 import ResumeButton from "./components/Header/ResumeButton.jsx";
 import "./App.css";
 
