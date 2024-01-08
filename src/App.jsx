@@ -1,12 +1,9 @@
-import { useState } from 'react';
-
-import { DomElementsContext } from './Store/Context.js';
-import Header from './components/Header/Header.jsx';
-import Sidebar from './components/Sidebar/Sidebar.jsx';
-import Main from './components/Main/About/Main.jsx';
-import TerminalContainer from './components/terminal/TerminalContainer.jsx';
-import ResumeButton from './components/Header/ResumeButton.jsx';
-import './App.css';
+import { DomElementsContext } from "./Store/Context.js";
+import Header from "./components/Header/Header.jsx";
+import Sidebar from "./components/Sidebar/Sidebar.jsx";
+import TerminalContainer from "./components/terminal/TerminalContainer.jsx";
+import ResumeButton from "./components/Header/ResumeButton.jsx";
+import "./App.css";
 
 function App() {
   // const [aboutSectionElHeight, setAboutSectionElHeight] = useState(null);
@@ -29,11 +26,9 @@ function App() {
             <ResumeButton />
           </div>
         </div>
-        {/* <Main /> */}
       </>
     </DomElementsContext.Provider>
   );
 }
 
 export default App;
-``;
