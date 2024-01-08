@@ -1,6 +1,6 @@
-import HeaderLink from './HeaderLink';
-import TerminalContainer from '../terminal/TerminalContainer';
-import ResumeButton from './ResumeButton';
+import HeaderLink from "./HeaderLink";
+import TerminalContainer from "../Terminal/TerminalContainer";
+import ResumeButton from "./ResumeButton";
 
 const Header = () => {
   return (
