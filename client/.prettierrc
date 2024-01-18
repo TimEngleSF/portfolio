@@ -1,0 +1,10 @@
+{
+  "overrides": [
+    {
+      "files": ["*.html", "package*", "*.yml", ".prettierrc"],
+      "options": {
+        "tabWidth": 2
+      }
+    }
+  ]
+}
