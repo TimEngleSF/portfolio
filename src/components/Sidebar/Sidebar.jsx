@@ -1,5 +1,3 @@
-import resume from '../../../public/Tim_Engle_Resume.pdf';
-
 const Sidebar = () => {
   return (
     <div className="fixed left-0 top-[35%] hidden flex-col lg:flex ">
@@ -74,7 +72,7 @@ const Sidebar = () => {
         </li>
         <li className="ml-[-100px] flex h-14 w-40 items-center justify-between rounded-br-md bg-termScreen px-4 duration-300 hover:ml-[-10px] hover:rounded-md">
           <a
-            href={resume}
+            href="/Tim_Engle_Resume.pdf"
             target="_blank"
             className="flex w-full items-center justify-between text-termTop"
             rel="noreferrer"
