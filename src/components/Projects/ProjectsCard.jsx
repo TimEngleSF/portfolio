@@ -29,13 +29,8 @@ const ProjectsCard = ({
       </a>
       <div className="card-body items-center rounded-b-md bg-termScreen p-3 text-center">
         <a href={url} target="_blank">
-          <h2 className="card-title">{title}</h2>
+          <h3 className="card-title">{title}</h3>
         </a>
-        {/* <div className="stack-icons flex gap-2">
-          {stackIcons.map((Icon, index) => (
-            <Icon key={index} size={"1.5rem"} />
-          ))}
-        </div> */}
         <div className="card-actions">
           <a href={ghUrl}>
             <FaGithub size={"2rem"} />
