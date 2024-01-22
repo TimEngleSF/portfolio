@@ -26,7 +26,7 @@ const ProjectsCard = ({
           <img src={img} alt={alt} />
         </figure>
       </a>
-      <div className="card-body items-center bg-termScreen p-3 text-center">
+      <div className="card-body items-center rounded-b-md bg-termScreen p-3 text-center">
         <a href={url} target="_blank">
           <h2 className="card-title">{title}</h2>
         </a>

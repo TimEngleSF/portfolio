@@ -32,7 +32,7 @@ const ProjectContainer = () => {
     />
   ));
   return (
-    <section className="mx-auto flex flex-col md:w-[80%] md:flex-row md:justify-center md:gap-12">
+    <section className="mx-auto flex flex-col rounded-b-md pb-20 md:w-[80%] md:flex-row md:justify-center md:gap-12">
       {projectComponents}
     </section>
   );
