@@ -4,7 +4,7 @@ import ResumeButton from "./ResumeButton";
 
 const Header = () => {
   return (
-    <header className="mt-2  px-6">
+    <header className="px-6">
       <div className=" flex justify-between">
         <h1 className="font-scp text-2xl font-semibold">Tim Engle</h1>
         {/* <nav>
