@@ -1,12 +1,12 @@
 import { Link } from "react-scroll";
-const HeaderLink = ({ linkText, url, isPageLink }) => {
+const NavLink = ({ title, url, isPageLink }) => {
   const linkEl = isPageLink ? (
     <Link to={url} smooth duration={500}>
-      {linkText}
+      {title}
     </Link>
   ) : (
     <a href={url} target="_blank">
-      {linkText}
+      {title}
     </a>
   );
 
@@ -17,4 +17,4 @@ const HeaderLink = ({ linkText, url, isPageLink }) => {
   );
 };
 
-export default HeaderLink;
+export default NavLink;

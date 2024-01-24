@@ -2,7 +2,7 @@ import "../../global.css";
 
 const ResumeButton = () => {
   return (
-    <div className="flex justify-center">
+    <div className="hidden justify-center md:flex">
       <a
         href="/Tim_Engle_Resume.pdf"
         target="_blank"
