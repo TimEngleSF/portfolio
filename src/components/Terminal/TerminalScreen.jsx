@@ -34,7 +34,7 @@ const TerminalScreen = ({ winWidth }) => {
     <div
       ref={terminalScreenRef}
       id="terminalScreen"
-      className="h-full w-full overflow-y-scroll rounded-b-md bg-termScreen text-sm md:h-[37.0625rem]"
+      className="h-full w-full overflow-y-scroll rounded-b-md bg-termScreen text-sm  md:h-[90%]"
     >
       {nextLine >= 0 && (
         <SimulatedInput
