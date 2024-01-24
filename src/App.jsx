@@ -7,8 +7,6 @@ import "./App.css";
 import ProjectContainer from "./components/Projects/ProjectContainer.jsx";
 
 function App() {
-  // const [aboutSectionElHeight, setAboutSectionElHeight] = useState(null);
-
   return (
     <DomElementsContext.Provider
       value={
@@ -18,17 +16,20 @@ function App() {
         }
       }
     >
-      <>
-        <div className="h-screen">
-          <Sidebar />
-          <Header />
-          <div className="mt-[5%] flex h-[80%] flex-col justify-between">
+      <div
+        className="mb-8 mt-[3.5rem] flex flex-col"
+        style={{ height: "calc(100vh - 3.5rem)" }}
+      >
+        <Sidebar />
+        <Header />
+        <div className="h-full">
+          <div className="mt-4 flex h-full flex-col justify-center lg:justify-normal">
             <TerminalContainer />
             <ResumeButton />
           </div>
         </div>
-        <ProjectContainer />
-      </>
+      </div>
+      <ProjectContainer />
     </DomElementsContext.Provider>
   );
 }

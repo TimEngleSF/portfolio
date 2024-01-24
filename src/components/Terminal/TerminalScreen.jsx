@@ -1,8 +1,8 @@
-import { useEffect, useState, useRef } from 'react';
-import SimulatedInput from '../../Utilities/SimulatedInput';
-import TerminalAbout from './TerminalAbout';
-import AsciiArt from './AsciiArt';
-import TerminalFetching from './TerminalFetching';
+import { useEffect, useState, useRef } from "react";
+import SimulatedInput from "../../Utilities/SimulatedInput";
+import TerminalAbout from "./TerminalAbout";
+import AsciiArt from "./AsciiArt";
+import TerminalFetching from "./TerminalFetching";
 
 //TODO Test SimulatedInput, fix showing the "cursor" that follows the text within
 // SimulatedInput
@@ -34,12 +34,11 @@ const TerminalScreen = ({ winWidth }) => {
     <div
       ref={terminalScreenRef}
       id="terminalScreen"
-      className="h-full w-full overflow-y-scroll rounded-b-md bg-termScreen text-sm"
+      className="h-full w-full overflow-y-scroll rounded-b-md bg-termScreen text-sm  md:h-[90%]"
     >
-      {' '}
       {nextLine >= 0 && (
         <SimulatedInput
-          text={'Tim start'}
+          text={"Tim start"}
           delay={0}
           timeUntilNext={500}
           setNextLine={setNextLine}
@@ -49,7 +48,7 @@ const TerminalScreen = ({ winWidth }) => {
       {nextLine >= 1 && showPhoto && <AsciiArt setNextLine={setNextLine} />}
       {nextLine >= 2 && (
         <SimulatedInput
-          text={'about'}
+          text={"about"}
           delay={500}
           timeUntilNext={1000}
           setNextLine={setNextLine}

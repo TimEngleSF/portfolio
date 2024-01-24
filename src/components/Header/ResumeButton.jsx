@@ -1,14 +1,13 @@
-import '../../global.css';
-import resume from '../../../public/Tim_Engle_Resume.pdf';
+import "../../global.css";
 
 const ResumeButton = () => {
   return (
-    <div className="mt-8 flex justify-center">
+    <div className="hidden justify-center md:flex">
       <a
-        href={resume}
+        href="/Tim_Engle_Resume.pdf"
         target="_blank"
         rel="noopener noreferrer"
-        className="resume-button mx-auto mt-4 inline-block rounded-md bg-termScreen px-8 py-4 font-scp text-xl font-semibold  text-termTop drop-shadow-md"
+        className="resume-button mx-auto inline-block rounded-md bg-termScreen px-8 py-4 font-scp text-xl font-semibold  text-termTop drop-shadow-md"
       >
         Resume
       </a>

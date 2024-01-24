@@ -14,7 +14,7 @@ const ProjectsCard = ({
   shiftImgY,
 }) => {
   return (
-    <div className="card w-60 rounded-md bg-termScreen font-scp text-termTop shadow-xl  md:w-80 lg:w-60">
+    <div className="card w-80 rounded-md bg-termScreen font-scp text-termTop  shadow-xl md:w-60">
       <div className="h-6 w-full rounded-t-md bg-termTop">
         <div className="ml-2 flex h-full w-16 items-center justify-between">
           <div className={`h-4 w-4 rounded-full bg-termExit`}></div>
@@ -29,13 +29,8 @@ const ProjectsCard = ({
       </a>
       <div className="card-body items-center rounded-b-md bg-termScreen p-3 text-center">
         <a href={url} target="_blank">
-          <h2 className="card-title">{title}</h2>
+          <h3 className="card-title">{title}</h3>
         </a>
-        {/* <div className="stack-icons flex gap-2">
-          {stackIcons.map((Icon, index) => (
-            <Icon key={index} size={"1.5rem"} />
-          ))}
-        </div> */}
         <div className="card-actions">
           <a href={ghUrl}>
             <FaGithub size={"2rem"} />

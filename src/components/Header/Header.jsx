@@ -1,26 +1,19 @@
-import HeaderLink from "./HeaderLink";
-import TerminalContainer from "../Terminal/TerminalContainer";
-import ResumeButton from "./ResumeButton";
+import HeaderLink from "./Nav/NavLink";
+import NavDesktop from "./Nav/NavDesktop";
+import NavMobile from "./Nav/NavMobile";
+// import TerminalContainer from "../Terminal/TerminalContainer";
+// import ResumeButton from "./ResumeButton";
 
 const Header = () => {
   return (
-    <header className="px-6">
-      <div className=" flex justify-between">
+    <header className="fixed top-0 z-50 h-[3.5rem] w-full bg-white px-6 md:mb-10">
+      <div className="flex items-center justify-between">
         <h1 className="font-scp text-2xl font-semibold">Tim Engle</h1>
-        {/* <nav>
-          <ul className="flex gap-4">
-            <HeaderLink headerText="Home" />
-            <HeaderLink headerText="About" />
-            <HeaderLink headerText="Experience" />
-            <HeaderLink headerText="Contact" />
-            <HeaderLink headerText="Resume" />
-          </ul>
-        </nav> */}
+        <nav className="font-scp">
+          <NavMobile />
+          <NavDesktop />
+        </nav>
       </div>
-      {/* <div className="flex h-full flex-col  "> */}
-      {/* <TerminalContainer />
-      <ResumeButton /> */}
-      {/* </div> */}
     </header>
   );
 };
