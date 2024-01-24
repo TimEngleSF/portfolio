@@ -1,6 +1,6 @@
 const Sidebar = () => {
   return (
-    <div className="fixed left-0 top-[35%] hidden flex-col lg:flex ">
+    <div className="fixed left-0 top-[35%] z-10 hidden flex-col rounded-r-md border-[1px] border-termTop lg:flex ">
       <ul>
         <li className="ml-[-100px] flex h-14 w-40 items-center justify-between rounded-tr-md bg-termScreen  px-4 duration-300 hover:ml-[-10px] hover:rounded-md">
           <a
