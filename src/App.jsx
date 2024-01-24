@@ -22,7 +22,7 @@ function App() {
         <div className="h-screen">
           <Sidebar />
           <Header />
-          <div className="mt-[5%] flex h-[80%] flex-col justify-between">
+          <div className="h-[90%]">
             <TerminalContainer />
             <ResumeButton />
           </div>
