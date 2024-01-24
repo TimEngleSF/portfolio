@@ -14,7 +14,7 @@ const ProjectsCard = ({
   shiftImgY,
 }) => {
   return (
-    <div className="card w-60 rounded-md bg-termScreen font-scp text-termTop shadow-xl  md:w-80 lg:w-60">
+    <div className="card w-80 rounded-md bg-termScreen font-scp text-termTop  shadow-xl lg:w-60">
       <div className="h-6 w-full rounded-t-md bg-termTop">
         <div className="ml-2 flex h-full w-16 items-center justify-between">
           <div className={`h-4 w-4 rounded-full bg-termExit`}></div>
