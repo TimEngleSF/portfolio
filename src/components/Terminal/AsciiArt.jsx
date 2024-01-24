@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect } from "react";
 
 const portrait = `
   _______                             .,,,,,,,.,,.,,,.,,..,,,,,...,,,..,,,.,..,......,,.
@@ -91,8 +91,8 @@ const AsciiArtWithPhoto = ({ setNextLine }) => {
   }, []);
   return (
     <pre className="ml-2 text-termTop ">
-      <span className="md:hidden">{text}</span>{' '}
-      <span className="hidden md:block">{portrait}</span>{' '}
+      <span className="md:hidden">{text}</span>{" "}
+      <span className="hidden md:block">{portrait}</span>
     </pre>
   );
 };

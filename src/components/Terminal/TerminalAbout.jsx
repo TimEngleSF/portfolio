@@ -1,13 +1,11 @@
 const TerminalAbout = () => {
   const contentLg = `
   {
-      name: Tim Engle,
+      name: 'Tim Engle',
       location: 'SF Bay Area',
-      profession: 'fullstack engineer',
-      currently: 'Mastering node'
-      languages: ['javascript', 'typescript'],
+      languages: ['javascript', 'typescript', 'go', 'python'],
       skills: {
-        backend: ['nodejs', 'express', 'socketio', 'mongodb', 'postgres' 'auth0', 'nginx'],
+        backend: ['nodejs', 'express', 'go', 'socketio', 'mongodb', 'postgres' 'auth0', 'nginx'],
         frontend: ['react', 'html5', 'css3', 'tailwindcss']
       },
       hobbies: ['cycling', 'music', 'gardening']      
@@ -16,13 +14,12 @@ const TerminalAbout = () => {
 
   const contentMd = `
   {
-      name: Tim Engle,
+      name: 'Tim Engle',
       location: 'SF Bay Area',
       profession: 'fullstack engineer',
-      currently: 'Mastering node'
-      languages: ['javascript', 'typescript'],
+      languages: ['javascript', 'typescript', 'go', 'python'],
       skills: {
-        backend: ['nodejs', 'express', 'socketio', 'mongodb', 
+        backend: ['nodejs', 'express', 'go' 'socketio', 'mongodb', 
           'postgres' 'auth0', 'nginx'],
         frontend: ['react', 'html5', 'css3', 'tailwindcss']
       },
@@ -39,13 +36,15 @@ const TerminalAbout = () => {
       languages: [
         'typescript'
         'javascript',
+        'go',
         'python'
       ],
       skills: {
         backend: [
-          'nodejs', 'express', 
-          'socketio', 'mongodb', 
-          'postgres' 'auth0', 'nginx'
+          'nodejs', 'express',
+          'go', 'socketio', 
+          'mongodb', 'postgres',
+          'auth0', 'nginx'
         ],
         frontend: [
           'react', 'html5', 
